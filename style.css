@@ -466,11 +466,13 @@ header {
 }
 
 .feature__text {
+  text-align: center;
   margin-top: 8px;
   margin-bottom: 16px;
 }
 
 .feature__para {
+  text-align: center;
   margin-top: 16px;
   font-size: 16px;
   max-width: calc(634px / 3);
