@@ -1027,7 +1027,7 @@ section #testimonials {
   height: 16px;
 }
 
-.testimonial_button {
+.testimonial__button {
   display: flex;
   justify-content: center;
   align-items: center;
