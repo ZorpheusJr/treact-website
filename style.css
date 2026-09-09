@@ -1038,7 +1038,7 @@ section #testimonials {
   transition: all 300ms ease;
 }
 
-.testimonial_button:hover {
+.testimonial__button:hover {
   background-color: rgb(229, 231, 235);
 }
 
