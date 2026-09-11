@@ -1,7 +1,7 @@
-const menu = document.getElementById
+const menu = document.getElementById("menu");
 function openMenu() {
-  document.body.classList.add("menu--open");
+  menu.classList.add("menu--open");
 }
 function closeMenu() {
-  document.body.classList.remove("menu--open");
+  menu.classList.remove("menu--open");
 }
