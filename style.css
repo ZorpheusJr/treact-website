@@ -258,12 +258,15 @@ nav.container {
   transition: all 300ms ease;
 }
 
-.menu__open {
+.menu--open {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(0);
   max-height: 100vh;
   overflow-y: hidden;
 }
 
-.menu .menu__open {
+.menu .menu--open {
   visibility: visible;
   opacity: 1;
   transform: translateX(0);
