@@ -1442,7 +1442,8 @@ footer {
   .plan {
     margin-right: 0px;
   }
-  #features .section__title, #pricing .section__title {
+  #features .section__title,
+  #pricing .section__title {
     font-size: 48px;
   }
 
@@ -1490,19 +1491,31 @@ footer {
   .section__para {
     font-size: 14px;
   }
-  #quality .row, #values .row {
+  #quality .row,
+  #values .row {
     flex-direction: column-reverse;
   }
-  .quality__description, .steps__description, .values__description, .testimonials__description {
+  .quality__description,
+  .steps__description,
+  .values__description,
+  .testimonials__description {
     padding: 0;
     margin-top: 64px;
     text-align: center;
   }
-  .quality__description, .quality__img--wrapper, .steps__description, .steps__img--wrapper, .values__description, .values__img, .testimonials__description, .testimonials__img {
+  .quality__description,
+  .quality__img--wrapper,
+  .steps__description,
+  .steps__img--wrapper,
+  .values__description,
+  .values__img,
+  .testimonials__description,
+  .testimonials__img {
     width: 100%;
     max-width: 448px;
   }
-  #steps .row, #testimonials .row {
+  #steps .row,
+  #testimonials .row {
     flex-direction: column;
   }
 
@@ -1541,7 +1554,8 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .footer__copyright, .footer__socials {
+  .footer__copyright,
+  .footer__socials {
     margin-top: 32px;
   }
   .footer__socials {
@@ -1587,7 +1601,8 @@ footer {
   .section__title {
     font-size: 30px;
   }
-  #features .section__title, #pricing .section__title {
+  #features .section__title,
+  #pricing .section__title {
     font-size: 36px;
   }
   .feature__row {
